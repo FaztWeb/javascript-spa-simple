@@ -16,7 +16,7 @@ export default async () => {
 
   posts.forEach((post) => {
     postsElement.innerHTML += `
-      <li class="list-group-item border-primary bg-dark text-white">
+      <li class="list-group-item border-light bg-dark text-white">
       <h5>${post.title}</h5>
       <p>
       ${post.body}

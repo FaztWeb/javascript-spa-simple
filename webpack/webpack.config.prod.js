@@ -8,6 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, "../dist"),
     filename: "bundle.js",
   },
+  mode: "production",
   plugins: [
     new HtmlWebpackPlugin({
       template: "./src/index.html",
@@ -29,7 +30,7 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader
+            loader: MiniCssExtractPlugin.loader,
           },
           // Translates CSS into CommonJS
           "css-loader",
@@ -39,7 +40,7 @@ module.exports = {
       },
       {
         test: /\.html$/i,
-        loader: 'html-loader',
+        loader: "html-loader",
       },
     ],
   },
