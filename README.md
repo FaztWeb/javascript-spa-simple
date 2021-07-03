@@ -6,18 +6,10 @@ Tools used in this example are:
 * Sass
 
 # Installation
+
 First install dependencies
 ```shell
 npm install
+npm start # to execute in development mode
+npm run build # to compile project to production
 ```
-
-To run the example in development mode
-```shell
-npm start
-```
-
-To build the project
-```shell
-npm run build
-```
-
