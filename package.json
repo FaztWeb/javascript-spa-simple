@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "baseline-browser-mapping": "^2.9.18",
     "bootstrap": "^5.0.2",
     "css-loader": "^5.2.6",
     "eslint": "^8.57.0",
