@@ -15,3 +15,5 @@ npm run build # to compile project to production
 npm run lint # to check JavaScript files with ESLint
 npm test # to run tests
 ```
+
+Tests use Node.js's built-in test runner (`node:test`).

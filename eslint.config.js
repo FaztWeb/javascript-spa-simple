@@ -17,7 +17,7 @@ module.exports = [
     },
   },
   {
-    files: ["webpack/**/*.js", "eslint.config.js"],
+    files: ["webpack/**/*.js", "eslint.config.js", "test/**/*.cjs"],
     languageOptions: {
       globals: globals.node,
       sourceType: "commonjs",
