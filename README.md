@@ -12,4 +12,6 @@ First install dependencies
 npm install
 npm start # to execute in development mode
 npm run build # to compile project to production
+npm run lint # to check JavaScript files with ESLint
+npm test # to run tests
 ```

@@ -7,7 +7,8 @@
     "build": "npm run clean && webpack --config ./webpack/webpack.config.js --env env=prod",
     "start": "webpack serve --config ./webpack/webpack.config.js --env env=dev --open",
     "clean": "rimraf dist",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -15,9 +16,12 @@
   "devDependencies": {
     "@babel/core": "^7.24.0",
     "@babel/preset-env": "^7.24.0",
+    "@eslint/js": "^10.0.1",
     "babel-jest": "^27.5.1",
     "bootstrap": "^5.0.2",
     "css-loader": "^6.11.0",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
     "html-loader": "^4.2.0",
     "html-webpack-plugin": "^5.6.8",
     "jest": "^27.5.1",
